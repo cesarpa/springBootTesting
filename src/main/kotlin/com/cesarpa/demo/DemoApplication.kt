@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class DemoApplication
 
 fun main(args: Array<String>) {
-	runApplication<DemoApplication>(*args)
+    val c = Calculator();
+    print(c.add(2, 8))
 }
